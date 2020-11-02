@@ -8,6 +8,7 @@ public class Main {
         DichotomyMethod dichotomyMethod = new DichotomyMethod();
         System.out.println("Метод дихотомии: ");
         dichotomyMethod.run();
+        System.out.println();
         GoldenSectionMethod goldenSectionMethod = new GoldenSectionMethod();
         System.out.println("Метод золотого сечения: ");
         goldenSectionMethod.run();
